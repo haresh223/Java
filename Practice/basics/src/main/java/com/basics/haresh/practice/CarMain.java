@@ -1,4 +1,4 @@
-import com.basics.haresh.practice.Car;
+package com.basics.haresh.practice;
 
 public class CarMain {
     public static void main(String[] args) {
