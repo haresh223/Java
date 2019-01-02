@@ -1,6 +1,7 @@
 package com.inheritance;
 
 import com.basics.Person;
+import com.basics.exception.PersonNotFoundException;
 
 public class Father extends Person {
 
@@ -12,5 +13,9 @@ public class Father extends Person {
 
     public void setOccupation(String occupation) {
         this.occupation = occupation;
+    }
+
+    public void findFather() throws PersonNotFoundException {
+        throw new PersonNotFoundException("No such person found");
     }
 }
